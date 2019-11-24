@@ -1,0 +1,23 @@
+.main {
+    height: 43vw;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    position: absolute;
+    top: 60px;
+    left: 30%;
+}
+h2{
+    position: absolute;
+    top: 100px;
+    left: 32%;
+}
+h1, h2 {
+    margin: 0px;
+    color: rgb(241, 233, 233);
+}
+.d-block{
+    position: relative;
+    height: 550px;
+}

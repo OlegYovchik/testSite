@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"login": {
+			"name": "login",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "login",
+			"order": 0
+		},
+		"password": {
+			"name": "password",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "password",
+			"order": 1
+		},
+		"role": {
+			"name": "role",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "role",
+			"order": 2
+		},
+		"age": {
+			"name": "age",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "age",
+			"order": 3
+		}
+	}
+}

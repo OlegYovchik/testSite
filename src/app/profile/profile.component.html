@@ -1,0 +1,33 @@
+<div class="main">
+    <h2>Oleg Yovchik</h2>
+    <div class="personal">
+        <h4>Personal details: </h4>
+        <p>Age: {{ 22 + 1 }}</p>
+        <p>Gender: male </p>
+        <p>Nationality: Ukrainian </p>
+        <p>Date of birth: 16th August, 1995 </p>
+        <p>Marital status: married</p>
+        <p>Address: Kyiv area, Ukraine</p>
+        <p>Phone number: 0**-**-**-**</p>
+        <p>e-mail: oleg***@mail.net</p>
+    </div>
+    <div class="objectives"><b>Objectives:</b><br/><ul>
+        <li *ngFor="let item of objectives">{{ item }}<br/><br/></li>
+    </ul>
+    </div>
+    <div class="skills"><b>Key information and skills:</b><br/><ul>
+        <li *ngFor="let item of skills">{{ item }}<br/><br/></li>
+    </ul>
+    </div>
+    <div class="scool">
+        <h3>Education</h3>
+            <table border="1" width="100%" class="table-dark">
+                <th>YEAR</th><th colspan="2">SCOOL</th>
+                <tr *ngFor="let scool of scools">
+                    <td>{{scool.year}}</td>  
+                    <td>{{scool.scool}}</td>
+                    <td>{{scool.specialty}}</td>
+                </tr>
+            </table>
+    </div>
+</div>

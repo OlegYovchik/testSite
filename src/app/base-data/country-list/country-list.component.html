@@ -1,0 +1,30 @@
+<h2>List of Countries</h2>
+
+<p>
+	<button class="btn btn-primary" routerLink="./create" routerLinkActiveted="active">Create</button>
+	<button class="btn btn-secondary" (click)="refresh()">Refresh</button>
+</p>
+<div *ngIf="errorMessage" class="alert alert-danger">
+    {{errorMessage}}
+</div>
+<table class="table table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Name</th>
+			<th>Capital</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tr *ngFor="let country of countries">
+		<td>
+			{{country.name}}
+		</td>
+		<td>
+			{{country.capital}}
+		</td>
+		<td>
+			<button class="btn btn-warning" routerLink="./edit/{{country.id}}" routerLinkActiveted="active">Edit</button>
+			<button class="btn btn-danger" (click)="deleteCountry(country)">Delete</button>
+		</td>
+	</tr>
+</table>

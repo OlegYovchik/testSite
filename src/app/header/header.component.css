@@ -1,0 +1,47 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(3, 61, 61);
+    line-height: 350%;
+}
+.avatar{
+    width: 45px;
+    height: 45px;
+    margin: 5px 0px 5px 10px;
+    float: left;
+    background-image: url(../../img/avatar.png);
+    background-size: contain;
+}
+#login{
+    float: right;
+    margin-right: 60px;
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top:-4px;
+    position: absolute;
+    right: 10px;
+}
+a {
+    float: left;
+    color: white;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    line-height: normal;
+    cursor: pointer;
+}
+a:after {
+    background-color: #ffeb3b;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    transition: width .5s ease-in-out;
+}
+a:hover:after {
+    width: 100%;
+}

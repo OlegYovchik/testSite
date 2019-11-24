@@ -1,0 +1,36 @@
+.main{
+    height: 550px;
+    background-image: url(../../img/bg2.jpg);
+    background-size: cover;
+}
+.personal,.objectives,.skills{
+    padding: 5px;
+    width: 380px;
+    height: 350px;
+    float: left;
+    border: 3px double black;
+    background-color: rgba(107, 106, 106, 0.7);
+}
+.scool{
+    padding-top: 45px;
+}
+h2,.personal,.objectives,.skills{
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+p:hover, li:hover, td:hover{
+    color: rgb(3, 3, 56);
+    font-weight: 600;
+    cursor: pointer;
+}
+h2, h3{
+    text-shadow: 5px 5px 5px rgb(24, 24, 24);
+}
+table{
+    background-color:  rgba(107, 106, 106, 0.7);
+}
+th{
+    text-align: center;
+    color: rgb(10, 10, 49);
+}
